@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portafolio profesional de Sebastian Guzman Giron, desarrollador de software especializado en web y móvil.">
+    <meta name="keywords" content="desarrollador, software, web, frontend, backend, javascript, react, node.js">
+    <meta name="author" content="Sebastian Guzman Giron">
+    <meta name="theme-color" content="#0066cc">
+    <meta property="og:title" content="Sebastian Guzman Giron | Desarrollador de Software">
+    <meta property="og:description" content="Portafolio profesional con proyectos destacados">
+    <meta property="og:type" content="website">
+    <title>Sebastian Guzman Giron | Desarrollador de Software</title>
+    <link rel="icon" type="image/jpeg" href="f9389307-dc2a-4859-b49e-587e195c977e.jpg">
+    <link rel="canonical" href="https://tuusuario.github.io">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navegación -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">SGG</div>
+            <div class="nav-toggle" id="navToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#inicio" class="nav-link active">Inicio</a></li>
+                <li><a href="#sobre-mi" class="nav-link">Sobre Mí</a></li>
+                <li><a href="#proyectos" class="nav-link">Proyectos</a></li>
+                <li><a href="#contacto" class="nav-link">Contacto</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Sección Inicio (Hero) -->
+    <section id="inicio" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Hola, soy <span>Sebastian Guzman Giron</span></h1>
+            <p class="hero-subtitle">Desarrollador de Software | Construyendo soluciones innovadoras</p>
+            <div class="hero-socials">
+                <a href="https://github.com" target="_blank" title="GitHub">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://linkedin.com" target="_blank" title="LinkedIn">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="https://twitter.com" target="_blank" title="Twitter">
+                    <i class="fab fa-twitter"></i>
+                </a>
+            </div>
+            <a href="#sobre-mi" class="btn-primary">Conoce mi trabajo</a>
+        </div>
+        <div class="hero-image">
+            <img src="f9389307-dc2a-4859-b49e-587e195c977e.jpg" alt="Sebastian Guzman Giron" class="avatar-photo">
+        </div>
+    </section>
+
+    <!-- Sección Sobre Mí -->
+    <section id="sobre-mi" class="about">
+        <div class="container">
+            <h2>Sobre Mí</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Soy un desarrollador de software apasionado por crear aplicaciones web y móviles de alta calidad. Con experiencia en múltiples tecnologías, me enfoco en escribir código limpio, escalable y mantenible.</p>
+                    <p>Me encanta resolver problemas complejos y aprender nuevas tecnologías constantemente. Cuando no estoy programando, disfruto contribuyendo a proyectos de código abierto.</p>
+                </div>
+                <div class="skills">
+                    <div class="skill-category">
+                        <h3>Frontend</h3>
+                        <ul>
+                            <li>HTML / CSS</li>
+                            <li>JavaScript</li>
+                            <li>React / Vue</li>
+                            <li>Responsive Design</li>
+                        </ul>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Backend</h3>
+                        <ul>
+                            <li>Node.js</li>
+                            <li>Python</li>
+                            <li>Bases de Datos</li>
+                            <li>APIs REST</li>
+                        </ul>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Herramientas</h3>
+                        <ul>
+                            <li>Git / GitHub</li>
+                            <li>Docker</li>
+                            <li>CI/CD</li>
+                            <li>Linux</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Proyectos -->
+    <section id="proyectos" class="projects">
+        <div class="container">
+            <h2>Proyectos Destacados</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-icon">
+                        <i class="fas fa-shopping-cart"></i>
+                    </div>
+                    <h3>E-commerce Platform</h3>
+                    <p>Plataforma de compra-venta con carrito de compras, integración de pagos y panel de administración.</p>
+                    <div class="project-tech">
+                        <span>React</span>
+                        <span>Node.js</span>
+                        <span>MongoDB</span>
+                    </div>
+                    <a href="#" class="project-link">Ver proyecto</a>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Analytics Dashboard</h3>
+                    <p>Dashboard interactivo para visualización de datos en tiempo real con gráficos dinámicos.</p>
+                    <div class="project-tech">
+                        <span>Vue.js</span>
+                        <span>Chart.js</span>
+                        <span>Firebase</span>
+                    </div>
+                    <a href="#" class="project-link">Ver proyecto</a>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3>Mobile App</h3>
+                    <p>Aplicación móvil nativa con sincronización en la nube y notificaciones push.</p>
+                    <div class="project-tech">
+                        <span>React Native</span>
+                        <span>Firebase</span>
+                        <span>Redux</span>
+                    </div>
+                    <a href="#" class="project-link">Ver proyecto</a>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-icon">
+                        <i class="fas fa-tasks"></i>
+                    </div>
+                    <h3>Task Manager</h3>
+                    <p>Gestor de tareas colaborativo con interfaz intuitiva y notificaciones automáticas.</p>
+                    <div class="project-tech">
+                        <span>JavaScript</span>
+                        <span>Firebase</span>
+                        <span>CSS Grid</span>
+                    </div>
+                    <a href="#" class="project-link">Ver proyecto</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Contacto -->
+    <section id="contacto" class="contact">
+        <div class="container">
+            <h2>Contáctame</h2>
+            <p class="contact-subtitle">¿Tienes un proyecto en mente? Me encantaría ayudarte.</p>
+            
+            <form class="contact-form" id="contactForm">
+                <div class="form-group">
+                    <input type="text" name="nombre" placeholder="Tu nombre" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" name="email" placeholder="Tu correo" required>
+                </div>
+                <div class="form-group">
+                    <input type="text" name="asunto" placeholder="Asunto">
+                </div>
+                <div class="form-group">
+                    <textarea name="mensaje" placeholder="Tu mensaje" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="btn-primary">Enviar Mensaje</button>
+            </form>
+
+            <div class="contact-info">
+                <p><i class="fas fa-envelope"></i> correo@ejemplo.com</p>
+                <p><i class="fas fa-phone"></i> +57 300 123 4567</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Sebastian Guzman Giron. Todos los derechos reservados.</p>
+            <div class="footer-socials">
+                <a href="https://github.com" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

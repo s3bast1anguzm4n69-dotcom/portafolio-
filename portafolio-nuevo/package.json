@@ -1,0 +1,24 @@
+{
+  "name": "sebastian-guzman-portafolio",
+  "version": "1.0.0",
+  "description": "Portafolio personal de Sebastian Guzman Giron - Desarrollador de Software",
+  "main": "index.html",
+  "scripts": {
+    "start": "open index.html",
+    "serve": "python -m http.server 8000"
+  },
+  "keywords": [
+    "portafolio",
+    "desarrollador",
+    "software",
+    "html",
+    "css",
+    "javascript"
+  ],
+  "author": "Sebastian Guzman Giron",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tuusuario/tuusuario.github.io"
+  }
+}
