@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tarjeta Infernal</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="page-background">
+    <main class="hero">
+      <section class="card">
+        <div class="card-visual">
+          <img src="assets/img/doom-slayer.png" alt="Doom Slayer" />
+          <div class="card-label">Haz clic en VER para descubrir la leyenda.</div>
+        </div>
+
+        <div class="card-content">
+          <h1>Doom Slayer</h1>
+          <p>El protagonista indiscutible de la franquicia <strong>Doom</strong>. Un guerrero imparable cuyo único propósito es exterminar demonios y abrirse paso a través del Infierno.</p>
+
+          <div class="buttons-row">
+            <button id="viewBtn" class="btn btn-primary">Ver</button>
+            <button id="denyBtn" class="btn btn-secondary">No ver</button>
+          </div>
+
+          <div id="infoPanel" class="info-panel">
+            <div id="infoCard" class="info-card hidden">
+              <h2>Doom Slayer</h2>
+              <p>Un soldado espacial que se convirtió en una fuerza divina tras sobrevivir al infierno. Su evolución va de Doomguy a un ser casi inmortal conocido como Hell Walker.</p>
+              <ul>
+                <li><strong>Origen:</strong> marine espacial en Marte, sobreviviente de la invasión demoníaca.</li>
+                <li><strong>Transformación:</strong> vengó la muerte de su mascota Daisy y recibió poderes de los Centinelas de la Noche.</li>
+                <li><strong>Habilidades:</strong> fuerza, velocidad y durabilidad sobrehumanas. No envejece y se alimenta de las almas demoníacas.</li>
+                <li><strong>Temido por los demonios:</strong> también llamado Hell Walker y Unchained Predator.</li>
+              </ul>
+            </div>
+
+            <div id="denyCard" class="deny-card hidden">
+              <h2>Acceso denegado</h2>
+              <p>Has decidido no ver la tarjeta. El portal se cierra y el fuego consume la información.</p>
+              <p class="error-code">ERROR 403 - ACCESO DENEGADO</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
